@@ -1,5 +1,12 @@
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 .contact_header{
 	clear:both;
+	border-top: 1px dotted black;
 }
 
 .contact_header p{
@@ -10,8 +17,8 @@
 
 .contact_map{
 	float:left;
-	width: 50%;
-	margin-top: 100px;
+	width: 60%;
+	margin-top: 50px;
 	box-sizing: border-box;
 }
 .contact_map .google_map{
@@ -19,15 +26,48 @@
 	border:10px black solid;
 }
 
-.contact_address1{
+.contact_address{
 	float:left;
 	box-sizing: border-box;
+	height: 450px;
 }
 
-.contact_address1 h2{
-	margin-top: 100px;
+.contact_address h2{
+	margin-top: 50px;
 	margin-left: 20px;
 }
-.contact_address1 p{
+.contact_address p{
 	margin-left: 20px;
+}
+
+.contact_form{
+	width: 40%;
+	margin-left: 30%;
+}
+
+#name{
+	margin-left: 5%;
+	height: 20px;
+	width: 90%;
+}
+
+#comment{
+	margin-left: 5%;
+	height: 200px;
+	width : 90%;
+}
+
+#submit_button{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-radius: 25px;
+	background: lightgrey;
+	width : 5em;
+	height: 3em;
+}
+input[type = "text"], textarea
+{
+	font-size: 18px;
+}
+form{
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
