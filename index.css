@@ -25,7 +25,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: lightgreen;
+	color: #4e9b5a;
 	line-height: 50px;
 	display: block;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -68,10 +68,34 @@ h1 {
 
 
 
+/* Button styling */
+.button {
+    background-color: #4CAF50; /* Green */
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+	color: #f5f5dc;
+	font-family: "Comic Sans MS";
+    font-size: 20px;
+}
 
+#button1 {
+    position:absolute;
+    left:60%;
+    top:93%;
+    border-radius: 8px;    
+}
+#button2 {
+    position: absolute;
+    left: 60%;
+    top: 105%;
+    border-radius: 8px;    
+}
 
-
-
+.button:hover {
+	background-color: #4e9b5a;
+}
 
 
 
