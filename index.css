@@ -29,7 +29,7 @@ nav ul li a {
 	color: #4e9b5a;
 	line-height: 50px;
 	display: block;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "futura", cursive, sans-serif;
 	font-size: 25px;
 }
 
@@ -40,8 +40,14 @@ li a:hover {
 	font-size: 30px;
 
 }
-
-
+/*Search Bar
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+}
+*/
 body {
 background: #f5f5dc; 
 margin: 0;
@@ -77,7 +83,7 @@ margin: 0;
     display: inline-block;
     text-decoration: none;
 	color: #f5f5dc;
-	font-family: "Comic Sans MS";
+	font-family: "futura";
     font-size: 20px;
 }
 
@@ -85,23 +91,68 @@ margin: 0;
     position:absolute;
     left:60%;
     top:93%;
-    border-radius: 8px;    
+    border-radius: 8px;  
+
 }
 #button2 {
     position: absolute;
     left: 60%;
-    top: 105%;
+    top: 110%;
     border-radius: 8px;    
 }
 
 .button:hover {
 	background-color: #4e9b5a;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* OUR STORY styling*/
 #ourstory {
-	margin: 15px;
-	text-align: center;  
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-align: center; 
+}
+#ourstory h1 h2 h3 {
+	font-family: "futura";
 }
 
+/* Image Gallery styling*/
+#gallery{
+	margin-top: 10px 10px auto;
+	width:100%;
+	clear: both; 
+	display: block;
+}
 
+.col3 {
+	float:left;
+	width: 30.8%; 
+	margin-right: 3.8%; 
+	text-align: center;
+}
+
+.blurb {
+	padding:10px;
+	text-align: center;
+	height: 100px;
+}
+
+.col3last {
+	margin-right: 0; 
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/*FOOTER styling*/
+.clear {
+	clear:both;
+}
+footer {
+  	position:absolute;
+    bottom:-1200px;
+    width:100%;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+  	color: #4e9b5a;
+}
